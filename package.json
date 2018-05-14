@@ -1,0 +1,49 @@
+{
+  "name": "invoice-app",
+  "version": "0.1.0",
+  "description": "payment invoice app",
+  "main": "index.js",
+  "engines": {
+    "node": "8.10.0",
+    "npm": "5.6.0"
+  },
+  "scripts": {
+    "server": "nodemon ./scripts-node/index.js --exec babel-node --presets es2015,stage-2",
+    "client": "npm run start --prefix scripts-web",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikeyana/invoice-app.git"
+  },
+  "keywords": [
+    "invoice",
+    "tax"
+  ],
+  "author": "limitless-mobility-team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthikeyana/invoice-app/issues"
+  },
+  "homepage": "https://github.com/karthikeyana/invoice-app#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-stage-0": "^6.24.1",
+    "body-parser": "^1.14.2",
+    "compression": "^1.6.1",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "mongoose": "latest",
+    "node-fetch": "^1.7.1",
+    "node-uuid": "^1.4.8",
+    "socket.io": "^2.1.0",
+    "uuid": "^3.2.1"
+  }
+}
