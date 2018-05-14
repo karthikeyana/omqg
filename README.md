@@ -1,4 +1,4 @@
-# invoice-app
+# omqg(Online Multiplayer Quiz Game)
 
 Prerequisites
 =============
@@ -22,4 +22,3 @@ Run
 ```bash
 npm run dev
 ```
-# omqg
