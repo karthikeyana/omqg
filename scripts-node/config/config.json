@@ -1,4 +1,4 @@
 {
 	"port": 8080,
-	"mongoURL": "mongodb://localhost/bank"
+	"mongoURL": "mongodb://localhost/omqg"
 }

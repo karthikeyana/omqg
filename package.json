@@ -1,7 +1,7 @@
 {
-  "name": "invoice-app",
+  "name": "omqg",
   "version": "0.1.0",
-  "description": "payment invoice app",
+  "description": "Online Multiplayer Quiz Game",
   "main": "index.js",
   "engines": {
     "node": "8.10.0",
@@ -14,18 +14,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karthikeyana/invoice-app.git"
+    "url": "git+https://github.com/karthikeyana/omqg.git"
   },
   "keywords": [
-    "game",
-    "quiz"
+    "quiz",
+    "game"
   ],
-  "author": "limitless-mobility-team",
+  "author": "karthikeyan.a",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karthikeyana/invoice-app/issues"
+    "url": "https://github.com/karthikeyana/omqg/issues"
   },
-  "homepage": "https://github.com/karthikeyana/invoice-app#readme",
+  "homepage": "https://github.com/karthikeyana/omqg#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
